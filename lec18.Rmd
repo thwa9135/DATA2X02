@@ -11,7 +11,8 @@ library(palmerpenguins)
 ```
 
 ## Permutation test with penguins
-i made changes for pull request
+
+I made changes for pull request.
 
 
 ```{r}
