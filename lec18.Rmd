@@ -11,7 +11,10 @@ library(palmerpenguins)
 
 ## Permutation test with penguins
 
+
+
 ```{r}
+citation("palmerpenguins")
 data("penguins")
 ```
 
