@@ -34,12 +34,14 @@ We'll focus on Adelie and Chinstrap.
 dat = penguins %>% filter(species %in% c("Adelie","Chinstrap")) %>% 
   select(species, bill_depth_mm) %>% 
   drop_na()
+dat
 ```
 
 Let $\mu_A$ be the population mean bill depth for Adelie penguins and $\mu_C$ be the population mean bill depth for Chinstrap penguins. We want to test the null hypothesis, $H_0: \mu_A = \mu_C$ against the alternative $H_1: \mu_A \neq \mu_C$.
 
 ```{r}
 t0 = t.test(bill_depth_mm ~ species, data = dat)
+t0
 ```
 
 
