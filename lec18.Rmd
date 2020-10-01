@@ -16,6 +16,7 @@ library(palmerpenguins)
 ```{r}
 citation("palmerpenguins")
 data("penguins")
+citation("tidyverse")
 ```
 
 ### Bill depth
